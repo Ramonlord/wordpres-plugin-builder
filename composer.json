@@ -1,0 +1,24 @@
+{
+    "name": "ramonlord/wordpres-build-plugin",
+    "description": "Wordpres plugin builder.",
+    "keywords": ["wordpress"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman",
+            "email": "omeha2@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-zip": "*",
+        "symfony/console": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Console\\": "src/"
+        }
+    },
+    "bin": [
+        "build-plugin"
+    ]
+}
