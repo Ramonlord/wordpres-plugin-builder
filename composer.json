@@ -11,7 +11,7 @@
     ],
     "require": {
         "ext-zip": "*",
-        "symfony/console": "~4.2"
+        "symfony/console": "~2.3|~3.0"
     },
     "autoload": {
         "psr-4": {
